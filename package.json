@@ -9,8 +9,8 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@simple-dnd-react/eslint-config": "workspace:*",
+    "@simple-dnd-react/typescript-config": "workspace:*",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
@@ -21,7 +21,7 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "packages/ui/**/*.{js,ts,jsx,tsx}": [
+    "packages/simple-dnd-react/**/*.{js,ts,jsx,tsx}": [
       "eslint --fix",
       "prettier --write"
     ]

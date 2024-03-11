@@ -1,7 +1,6 @@
 "use client";
 
-import { Draggable } from "@repo/ui/Draggable";
-import { Droppable } from "@repo/ui/Droppable";
+import { Draggable, Droppable } from "@simple-dnd/react";
 
 export default function Page(): JSX.Element {
   return (
